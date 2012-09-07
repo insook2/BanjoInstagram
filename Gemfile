@@ -6,6 +6,7 @@ gem 'rails', '3.2.2'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :production do
+  gem 'therubyracer-heroku', '0.8.1.pre3' # you will need this too
   gem 'pg'
 end
 
