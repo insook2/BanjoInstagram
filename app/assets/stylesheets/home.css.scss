@@ -1,7 +1,15 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
- #main_container{
+ #main_container {
    width: 960px;
    margin: 20 auto;
+
+   #instagram {
+      display: inline;
+     float: left;
+     width: 330px;
+     margin: 0 10px;
+     min-height: 270px;
+   }
  }
