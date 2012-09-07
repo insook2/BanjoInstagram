@@ -7,6 +7,11 @@ gem 'rails', '3.2.2'
 
 group :test do
   gem 'sqlite3'
+  gem 'capybara'
+end
+
+group :development do
+  gem 'heroku'
 end
 
 # Gems used only for assets and not required
