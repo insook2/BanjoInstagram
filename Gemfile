@@ -10,7 +10,12 @@ group :production do
   gem 'pg'
 end
 
-group :development do
+group :test, :development do
+  gem 'rspec-rails'
+  gem "capybara"
+end
+
+group :test do
   gem 'sqlite3'
 end
 
@@ -28,6 +33,8 @@ end
 
 gem 'jquery-rails'
 gem 'backbone-on-rails'
+
+gem 'typhoeus', '0.4.2'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

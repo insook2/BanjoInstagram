@@ -1,5 +1,6 @@
 Banjo::Application.routes.draw do
   get "home/index"
+  get '/search' => 'search#create', as: 'search'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
