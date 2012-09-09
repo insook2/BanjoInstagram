@@ -118,14 +118,18 @@ window.BanjoView = Backbone.View.extend({
 //            }
 //        });
 
-
         if( this.collection.length > 0)
         {
             $('div#instagram').html('');
             for (var i=0; i < this.collection.length ; i++)
             {
                 var imageurl = this.collection.models[i].attributes.images.low_resolution.url;
-                $('div#instagram').append("<div class='image_holder '><img src ='" + imageurl + "'/></div> ") ;
+                var caption = this.collection.models[i].attributes.caption;
+                var captionText = '';
+                if(caption){
+                   captionText = caption.text;
+                }
+                $('div#instagram').append("<div class='image_holder '><img src ='" + imageurl + "'/><span>"+captionText+"</span></div> ") ;
             }
         }
 
