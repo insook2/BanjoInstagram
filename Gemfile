@@ -17,6 +17,10 @@ end
 
 group :test do
   gem 'sqlite3'
+  gem 'jasmine'
+  gem 'jshint_on_rails'
+  gem 'shoulda-matchers'
+  gem 'webmock'
 end
 
 # Gems used only for assets and not required
