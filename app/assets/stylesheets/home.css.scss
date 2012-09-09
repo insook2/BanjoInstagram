@@ -1,15 +1,39 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
- #main_container {
-   width: 960px;
-   margin: 20 auto;
+body {
+  font-family: Helvetica, Century Gothic, Tahoma, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 
-   #instagram {
-      display: inline;
-     float: left;
-     width: 330px;
-     margin: 0 10px;
-     min-height: 270px;
-   }
- }
+#wrapper{
+  width: 100%;
+
+  #main_container {
+    width: 960px;
+    margin: 0 auto;
+
+     #instagram {
+       display: block;
+       float: left;
+     }
+     .image_holder.first {
+       clear: left;
+     }
+     .image_holder {
+       display: inline;
+       float: left;
+       width: 306px;
+       height: 306px;
+       margin: 0 5px;
+       margin-bottom: 10px;
+       border: 1px solid #ccc;
+
+       &:hover {
+         border: 1px solid #00C5D0;
+       }
+     }
+
+  }
+}
+}
