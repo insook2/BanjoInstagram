@@ -24,6 +24,13 @@ body {
       padding-top: 35px;
       text-transform: UPPERCASE;
     }
+
+    a {
+      color: #EF164B;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
   }
   #main_container {
     width: 960px;
