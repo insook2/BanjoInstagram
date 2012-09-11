@@ -170,9 +170,6 @@ GEM
     treetop (1.4.10)
       polyglot
       polyglot (>= 0.3.1)
-    typhoeus (0.4.2)
-      ffi (~> 1.0)
-      mime-types (~> 1.18)
     tzinfo (0.3.33)
     uglifier (1.2.3)
       execjs (>= 0.3.0)
@@ -204,6 +201,5 @@ DEPENDENCIES
   shoulda-matchers
   sqlite3
   therubyracer-heroku (= 0.8.1.pre3)
-  typhoeus (= 0.4.2)
   uglifier (>= 1.0.3)
   webmock
