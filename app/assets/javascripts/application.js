@@ -16,6 +16,4 @@
 //= require underscore
 //= require backbone
 //
-//= require .//banjo
-//
 //= require_tree .
