@@ -21,6 +21,10 @@ group :test do
   gem 'jshint_on_rails'
   gem 'shoulda-matchers'
   gem 'webmock'
+  gem 'guard'
+  gem 'guard-coffeescript'
+  gem 'guard-livereload'
+  gem 'jasminerice'
 end
 
 # Gems used only for assets and not required
